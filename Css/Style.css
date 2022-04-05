@@ -299,3 +299,13 @@ body {
         text-align: center;
 
     } */
+.copyright-4 {
+    clear: both;
+    text-align: center;
+    font-size: 12px;
+    height: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #cfc9c9;
+}

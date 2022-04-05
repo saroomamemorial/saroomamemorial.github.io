@@ -43,130 +43,115 @@
     .cardInfo2 {
         margin-top: 75px;
     }
-    .copyright-4 {
-        margin-top: 190px;
-        height: 254px;
+    /* Mobile view */
+    @media (max-width:450px) {
+        /* home tab */
+        #flag {
+            display: none;
+        }
+        .sections {
+            font-size: 15px;
+        }
+        #section1 {
+            height: 100%;
+        }
+        #mainHeading {
+            font-size: 10px;
+        }
+        .headings {
+            font-size: 20px
+        }
+        .motto {
+            margin-top: 0px;
+            padding: 10px;
+            font-size: 15px;
+        }
+        #aboutUs {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #aimSec {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .aimPara {
+            padding-left: 0px;
+        }
+        .copyright {
+            font-size: 10px;
+        }
+        /* aboutUs tab */
+        .boxContainer {
+            grid-template-columns: 1fr;
+        }
+        .cardBox {
+            height: 200px;
+            /* width: 350px; */
+            grid-template-columns: 100px 100px 135px;
+        }
+        .img5 {
+            height: 100px;
+            width: 100px;
+        }
+        .card {
+            font-size: 13px;
+        }
+        .cardInfo {
+            margin-left: 2px;
+        }
+        .cardInfo2 {
+            margin-top: 75px;
+        }
+        /* contact tab */
+        .container2 {
+            margin-top: 22vh;
+            height: 72vh;
+            /* width: 150px; */
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .pt2 {
+            margin-left: -10px;
+            font-size: 16px;
+        }
+        .pt3 {
+            margin-left: -10px;
+            font-size: 16px;
+        }
+        .logos {
+            height: 43px;
+        }
+        .copyright {
+            padding-bottom: 35px;
+        }
     }
-}
-
-
-/* Mobile view */
-
-@media (max-width:450px) {
-    /* home tab */
-    #flag {
-        display: none;
-    }
-    .sections {
-        font-size: 15px;
-    }
-    #section1 {
-        height: 100%;
-    }
-    #mainHeading {
-        font-size: 10px;
-    }
-    .headings {
-        font-size: 20px
-    }
-    .motto {
-        margin-top: 0px;
-        padding: 10px;
-        font-size: 15px;
-    }
-    #aboutUs {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    #aimSec {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .aimPara {
-        padding-left: 0px;
-    }
-    .copyright {
-        font-size: 10px;
-    }
-    /* aboutUs tab */
-    .boxContainer {
-        grid-template-columns: 1fr;
-    }
-    .cardBox {
-        height: 200px;
-        /* width: 350px; */
-        grid-template-columns: 100px 100px 135px;
-    }
-    .img5 {
-        height: 100px;
-        width: 100px;
-    }
-    .card {
-        font-size: 13px;
-    }
-    .cardInfo {
-        margin-left: 2px;
-    }
-    .cardInfo2 {
-        margin-top: 75px;
-    }
-    .copyright-4 {
-        height: 158px;
-        width: 454px;
-        margin-top: 246px
-        /* padding-top: 100px; */
-    }
-    .container2 {
-        height: 150px;
-         width: 150px;
-        margin-left: 149px;
-    }
-    .pt2 {
-        /* padding-left: 26px; */
-        font-size: 26px;
-    }
-    
-    .pt3 {
-        font-size: 20px;
-        padding-left: 20px;
-    }
-    .logos {
-        height: 56px;
-    }
-}
-
-
-/* For ultra small mobiles */
-
-@media (max-width:364px) {
-    /* home tab */
-    /*  */
-    /* aboutUs tab */
-    .cardBox {
-        height: 200px;
-        width: 300px;
-        grid-template-columns: 100px 90px 95px;
-    }
-    .copyright-4 {
-        height: 123px;
-        width: 450px;
-        margin-top: 261px;
-    }
-    .container2 {
-        height: 150px;
-         width: 150px;
-        margin-left: 140px;
-    }
-    .pt2 {
-        padding-left: 20px;
-        font-size: 20px;
-    }
-    
-    .pt3 {
-        font-size: 17px;
-        padding-left: 20px;
-    }
-    .logos {
-        height: 50px;
+    /* For ultra small mobiles like iphone 4 */
+    @media (max-width:364px) {
+        /* home tab */
+        /*  */
+        /* aboutUs tab */
+        .cardBox {
+            height: 200px;
+            width: 300px;
+            grid-template-columns: 100px 90px 95px;
+        }
+        /* contact tab */
+        .container2 {
+            height: 70vh;
+            /* width: 150px; */
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .pt2 {
+            margin-left: -10px;
+            font-size: 16px;
+        }
+        .pt3 {
+            margin-left: -10px;
+            font-size: 16px;
+        }
+        .logos {
+            height: 43px;
+        }
     }
 }

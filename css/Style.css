@@ -134,7 +134,8 @@ body{
   padding-left: 2rem;
 }
 main {
-  padding: 6rem 4rem;
+  padding-left:7 ;
+  padding-right:7 ;
 }
 main h1 {
   font-size: 3rem;
@@ -425,7 +426,8 @@ h1 {
 .i{
   margin-top: 2px;
 }
-#oooo {
+/* #oooo {
   padding-left:7 ;
   padding-right:7 ;
 }
+ */

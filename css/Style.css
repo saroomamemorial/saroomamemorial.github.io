@@ -134,8 +134,8 @@ body{
   padding-left: 2rem;
 }
 main {
-  padding-left:7 ;
-  padding-right:7 ;
+  padding-left:7px ;
+  padding-right:7px ;
 }
 main h1 {
   font-size: 3rem;
